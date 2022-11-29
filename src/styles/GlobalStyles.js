@@ -1,6 +1,6 @@
-import { createGlobalState } from "react-use";
+import { createGlobalStyle } from "styled-components";
 
-const GlobalStyles = createGlobalState`
+const GlobalStyles = createGlobalStyle`
     *,*::before,*::after {
         margin: 0;
         padding: 0;
