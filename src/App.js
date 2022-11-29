@@ -1,5 +1,6 @@
 import { ThemeProvider } from "styled-components";
 import "./App.css";
+import Navigation from "./components/Navigation/Navigation";
 import GlobalStyles from "./styles/GlobalStyles";
 import { light } from "./styles/Themes";
 
@@ -8,9 +9,7 @@ function App() {
     <>
       <GlobalStyles>
         <ThemeProvider theme={light}>
-          <div className="App">
-            <h1>NFT Landing Page</h1>
-          </div>
+          <Navigation />
         </ThemeProvider>
       </GlobalStyles>
     </>
