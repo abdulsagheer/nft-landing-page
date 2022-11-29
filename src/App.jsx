@@ -14,18 +14,17 @@ import FAQ from "./components/FAQ/FAQ";
 function App() {
   return (
     <>
-      <GlobalStyles>
-        <ThemeProvider theme={light}>
-          <Navigation />
-          <Home />
-          <About />
-          <Roadmap />
-          <Showcase />
-          <Team />
-          <FAQ />
-          <Footer />
-        </ThemeProvider>
-      </GlobalStyles>
+      <GlobalStyles />
+      <ThemeProvider theme={light}>
+        <Navigation />
+        <Home />
+        <About />
+        <Roadmap />
+        <Showcase />
+        <Team />
+        <FAQ />
+        <Footer />
+      </ThemeProvider>
     </>
   );
 }
