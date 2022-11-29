@@ -1,10 +1,15 @@
 import "./App.css";
+import GlobalStyles from "./styles/GlobalStyles";
 
 function App() {
   return (
-    <div className="App">
-      <h1>NFT Landing Page</h1>
-    </div>
+    <>
+      <GlobalStyles>
+        <div className="App">
+          <h1>NFT Landing Page</h1>
+        </div>
+      </GlobalStyles>
+    </>
   );
 }
 
