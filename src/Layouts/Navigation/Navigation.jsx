@@ -24,7 +24,7 @@ const Menu = styled.ul`
   align-items: center;
 `;
 
-const MenuItem = styled.ul`
+const MenuItem = styled.li`
   margin: 0 1rem;
   color: ${(props) => props.theme.text};
   cursor: pointer;
@@ -34,6 +34,7 @@ const MenuItem = styled.ul`
   &:hover {
     transform: scale(1.2);
     text-decoration: underline;
+    text-decoration-color: white;
   }
 `;
 
